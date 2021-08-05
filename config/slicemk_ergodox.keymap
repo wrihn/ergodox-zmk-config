@@ -5,9 +5,8 @@
 
 #define WIN 0
 #define MAC 1
-#define CON 2
-#define TST 3
-#define FCN 4
+#define TST 2
+#define FCN 3
 
 / {
         keymap {
@@ -46,20 +45,6 @@
                 layer_2 {
                         bindings = <
     &bootloader
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_CLR     &bt BT_SEL 0
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none          &bt BT_SEL 1
-    &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none          &bt BT_SEL 2
-    &none      &none      &none      &kp LBKT   &kp RBKT   &none      &none      &none      &none      &none      &none      &none      &none          &bt BT_SEL 3
-    &mo FCN    &none      &none      &none      &none                                                  &none      &none      &none      &out OUT_TOG   &bt BT_SEL 4
-                                                           &none      &none      &none      &none
-                                                                      &none      &none
-                                                &none      &none                            &none      &none
-                                                                      &none      &none
-                        >;
-                };
-                layer_3 {
-                        bindings = <
-    &bootloader
     &kp A    &kp B    &kp C    &kp D    &kp E    &kp F    &kp G    &kp H    &kp I    &kp J    &kp K    &kp L    &kp M    &kp N
     &kp A    &kp B    &kp C    &kp D    &kp E    &kp F    &kp G    &kp H    &kp I    &kp J    &kp K    &kp L    &kp M    &kp N
     &kp A    &kp B    &kp C    &kp D    &kp E    &kp F                      &kp I    &kp J    &kp K    &kp L    &kp M    &kp N
@@ -71,7 +56,7 @@
                                                           &kp G    &kp H 
                         >;
                 };
-                layer_4 {
+                layer_3 {
                         bindings = <
     &bootloader
     &to TST    &to WIN    &to MAC    &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_CLR     &bt BT_SEL 0
