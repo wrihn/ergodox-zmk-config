@@ -34,9 +34,9 @@
     &none      &none      &none      &none      &none      &none                                          &none   &none      &none      &none      &none      &none
     &none      &none      &none      &kp LBKT   &kp RBKT   &none      &kp M_VOLD         &kp M_VOLU       &none   &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none                                                             &none      &none      &none      &none      &out OUT_TOG
-                                                           &none      &none              &none   &none
+                                                           &to WIN     &none              &none    &none
                                                                       &none              &none
-                                                &none      &tog WIN                              &tog MAC  &out OUT_USB
+                                                &none      &none                                  &tog MAC  &none
                                                                       &none              &none
                         >;
                 };
