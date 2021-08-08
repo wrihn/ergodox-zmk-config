@@ -36,7 +36,7 @@
     &none      &none      &none      &none      &none                                                             &none      &none      &none      &none      &out OUT_TOG
                                                            &none      &none              &none   &none
                                                                       &none              &none
-                                                &none      &to WIN                               &to MAC  &out OUT_USB
+                                                &none      &tog WIN                              &tog MAC  &out OUT_USB
                                                                       &none              &none
                         >;
                 };
