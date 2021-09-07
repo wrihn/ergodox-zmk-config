@@ -34,7 +34,7 @@
     &kp LG(C)  &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp APOS
     &sk LSFT   &kp Z      &kp X      &kp C      &kp V      &kp B      &mo TMP    &mo TMP    &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &sk RSFT
     &kp LCTL   &mo TMP    &kp LALT   &kp LG(V)  &kp LGUI                                               &kp LARW   &kp DARW   &kp UARW   &kp RARW   &none
-                                                           &kp K_BACK &kp HOME    &kp PRSC   &kp K_FORWARD
+                                                           &kp LG(LARW) &kp HOME    &kp PRSC   &kp LG(RARW)
                                                                       &kp END     &kp PGUP
                                                 &kp BSPC   &kp SPC                          &kp RET    &kp SPC
                                                                       &kp LGUI    &kp PGDN
